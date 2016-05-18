@@ -47,4 +47,4 @@ Po utworzeniu AppService, należy skonfigurować konto FTP do Continous Deployme
 ![alt](http://s32.postimg.org/qi5nqywxx/Ftp03.png)
 
 - Mając te informacje, można skonfigurować Continous Deployment za pomocą TeamCity.
-- Udaj się do osób zarządzających TeamCity aby skonfigurować swój projekt
+- Należy udać się do osób zarządzających TeamCity aby skonfigurować automatyczny build swojego projektu.
