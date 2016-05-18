@@ -4,7 +4,11 @@
 
 Poniższa instrukcja zakłada, że zespół będzie korzystał z .NET.
 
-W razie problemów z konfiguracją, __w każdej chwili można podejść do Maćka__ i poprosić o pomoc.
+W razie problemów z konfiguracją MS Azure, TeamCity lub Cake'a, __w każdej chwili można podejść do Maćka__ i poprosić o pomoc.
+
+## 0. Fork
+
+- Należy utworzyć fork'a tego repozytorium
 
 ## 1. Aktywacja Azure Pass
 
@@ -43,3 +47,4 @@ Po utworzeniu AppService, należy skonfigurować konto FTP do Continous Deployme
 ![alt](http://s32.postimg.org/qi5nqywxx/Ftp03.png)
 
 - Mając te informacje, można skonfigurować Continous Deployment za pomocą TeamCity.
+- Udaj się do osób zarządzających TeamCity aby skonfigurować swój projekt
