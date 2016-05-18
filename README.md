@@ -26,3 +26,20 @@ W razie problemów z konfiguracją, __w każdej chwili można podejść do Maćk
 - Zakończ wstępną konfigurację aplikacji za pomocą "Create"
 
 ![alt](http://s32.postimg.org/4qqh06tl1/App_Service03.png)
+
+## 3. Konfiguracja FTP
+Po utworzeniu AppService, należy skonfigurować konto FTP do Continous Deployment.
+
+- Należy wybrać utworzoną aplikację z listy i znaleźć panel "Deployment Credentials"
+
+![alt](http://s32.postimg.org/s2nckxi6d/Ftp01.png)
+
+- Należy skonfigurować dostęp dla użytkownika FTP.
+
+![alt](http://s32.postimg.org/be58y9phh/Ftp02.png)
+
+- Po konfiguracji należy zapisać: FTP hostname, pełną nazwę użytkownika i hasło.
+
+![alt](http://s32.postimg.org/qi5nqywxx/Ftp03.png)
+
+- Mając te informacje, można skonfigurować Continous Deployment za pomocą TeamCity.
