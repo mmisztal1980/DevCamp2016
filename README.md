@@ -48,3 +48,12 @@ Po utworzeniu AppService, należy skonfigurować konto FTP do Continous Deployme
 
 - Mając te informacje, można skonfigurować Continous Deployment za pomocą TeamCity.
 - Należy udać się do osób zarządzających TeamCity aby skonfigurować automatyczny build swojego projektu.
+
+## 4. Konfiguracja automatycznego build'u projektu:
+
+- Należy otworzyć plik ```build.cake``` do edycji
+- Należy zmienić wartość ```project.WebAppName``` na wartość odpowiadającą nazwie aplikacji ASP.NET, która będzie automatycznie deploy'owana do Azure
+
+![alt](http://s32.postimg.org/5jm75g4n9/Cake01.png)
+
+- Build można przetestować z linii poleceń, za pomocą : ```build.cmd -taget=Deploy -configuration=Release```
