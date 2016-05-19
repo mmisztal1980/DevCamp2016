@@ -57,3 +57,11 @@ Po utworzeniu AppService, należy skonfigurować konto FTP do Continous Deployme
 ![alt](http://s32.postimg.org/5jm75g4n9/Cake01.png)
 
 - Build można przetestować z linii poleceń, za pomocą : ```build.cmd -taget=Deploy -configuration=Release```
+
+
+## 5. Testowanie za pomocą CAKE
+
+## 6. Dodatkowe Taski w CAKE, które mogą wam się przydać
+
+### Cake.Gulp
+[Cake.Gulp]: http://cakebuild.net/api/cake.gulp/b00ebe30/581aa084
