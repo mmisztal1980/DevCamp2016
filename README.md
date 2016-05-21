@@ -70,3 +70,6 @@ Cake wspiera większość popularnych framework'ów testowychn na przykład:
 ## 6. Dodatkowe Taski w CAKE, które mogą wam się przydać
 
 - [Cake.Gulp](http://cakebuild.net/api/cake.gulp/b00ebe30/581aa084)
+
+
+# Powodzenia!
