@@ -61,7 +61,12 @@ Po utworzeniu AppService, należy skonfigurować konto FTP do Continous Deployme
 
 ## 5. Testowanie za pomocą CAKE
 
+Cake wspiera większość popularnych framework'ów testowychn na przykład:
+
+- [Xunit2](http://cakebuild.net/api/cake.common.tools.xunit/465d73c3/73842de8) (użyty domyślnie w projekcie)
+- [NUnit](http://cakebuild.net/dsl/nunit)
+- [MSTest](http://cakebuild.net/dsl/mstest)
+
 ## 6. Dodatkowe Taski w CAKE, które mogą wam się przydać
 
-### Cake.Gulp
-[Cake.Gulp]: http://cakebuild.net/api/cake.gulp/b00ebe30/581aa084
+- [Cake.Gulp](http://cakebuild.net/api/cake.gulp/b00ebe30/581aa084)
