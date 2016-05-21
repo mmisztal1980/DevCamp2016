@@ -18,8 +18,11 @@ copy %CACHED_NUGET% tools\.nuget\nuget.exe > nul
 :restore
 tools\.nuget\NuGet.exe update -self
 tools\.nuget\NuGet.exe install Cake -OutputDirectory tools -ExcludeVersion
+tools\.nuget\NuGet.exe install Cake.XdtTransform -OutputDirectory tools -ExcludeVersion
+tools\.nuget\NuGet.exe install Cake.PowerShell -OutputDirectory tools -ExcludeVersion
 tools\.nuget\NuGet.exe install xunit.runner.console -OutputDirectory tools -ExcludeVersion
-REM tools\.nuget\NuGet.exe restore -SolutionDirectory .
+tools\.nuget\NuGet.exe install WinSCP -OutputDirectory tools -ExcludeVersion
+tools\.nuget\NuGet.exe restore -SolutionDirectory .
 
 :buildsolution
 set encoding=utf-8
